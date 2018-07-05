@@ -18,6 +18,7 @@ cc.Class({
     onclick: function (){
         if(this.label.string == ""){
             // シーン遷移テスト
+            // this.label.string = this.text;
             cc.director.loadScene('HelloWorld2');
         }else{
             this.label.string = "";
